@@ -1,0 +1,11 @@
+{
+  "name": "QQ Exam",
+  "short_name": "QQ Exam",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#0e0f12",
+  "theme_color": "#0e0f12",
+  "description": "Personal exam interface"
+}

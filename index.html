@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e0f12">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="QQ Exam">
+  <meta name="description" content="Personal exam interface">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <title>QQ Exam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app" class="app">
+    <section id="identify" class="screen"></section>
+    <section id="exam" class="screen hidden"></section>
+    <section id="summary" class="screen hidden"></section>
+    <section id="upload" class="screen hidden"></section>
+    <section id="exam-list" class="screen hidden"></section>
+    <section id="preparing" class="screen hidden"></section>
+  </main>
+  <div id="modal-root"></div>
+  <div id="toast" class="toast hidden">Code Copied!</div>
+  <script src="app.js"></script>
+</body>
+</html>
